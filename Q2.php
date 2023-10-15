@@ -8,7 +8,7 @@ $database = "test";
 $con = new mysqli($servername, $username, $password, $database);
 
 if ($con->connect_error) {
-    die("Connection failed: " . $conn->connect_error);
+    die("Connection failed: " . $con->connect_error);
 }
 
 $xml = simplexml_load_file('students.xml');
