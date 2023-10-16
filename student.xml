@@ -1,10 +1,7 @@
 <student>
-    <table>
-        <row>
-            <name>Hetvi</name>
-            <age>20</age>
-            <gender>female</gender>
-        </row>
-        <!-- Other rows go here -->
-    </table>
+    <student>
+        <name>John Doe</name>
+        <age>20</age>
+        <gender>Male</gender>
+    </student>
 </student>
