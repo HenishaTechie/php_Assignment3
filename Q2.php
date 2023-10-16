@@ -11,7 +11,7 @@ if ($con->connect_error) {
     die("Connection failed: " . $con->connect_error);
 }
 
-$xml = simplexml_load_file('students.xml');
+$xml = simplexml_load_file('student.xml');
 
 if ($xml === false) {
     die('Failed to load XML file');
