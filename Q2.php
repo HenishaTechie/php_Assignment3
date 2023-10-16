@@ -24,8 +24,7 @@ if (isset($xml->student) && count($xml->student) > 0) {
         $age = (int)$student->age;
         $gender = (string)$student->gender;
 
-        // Print debug information
-        echo "ID: $id, Name: $name, Age: $age, Gender: $gender<br>";
+        echo "Name: $name, Age: $age, Gender: $gender<br>";
 
         $sql = "INSERT INTO student (id, name, age, gender) VALUES ('$id', '$name', '$age', '$gender')";
 
