@@ -39,7 +39,7 @@ if ($result->num_rows > 0) {
     }
 
     $xml->asXML('student.xml');
-    echo 'Data exported to student.xml file.';
+    echo 'Data exported to students.xml file.';
 } else {
     echo 'No data found in the students table.';
 }
